@@ -32,7 +32,7 @@
     
     .col-lg-8.mt-5.m-auto
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5 Figura 7.
+          h5.d-block Figura 7.
           span #[em Estructura de la ficha técnica de un medicamento]
       figure.mt-4
         img(src="@/assets/curso/temas/tema2/3.svg" data-aos="zoom-in-up")
@@ -43,13 +43,13 @@
 
     .col-lg-8.mt-5.m-auto
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5 Figura 8.
+          h5.d-block Figura 8.
           span #[em Estructura de la ficha técnica de un Dispositivo Médico]
       figure.mt-4
         img(src="@/assets/curso/temas/tema2/4.svg" data-aos="zoom-in-up")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
     
-    p.mt-5(data-aos="fade-up") En el material complementario se encuentra un enlace que lo llevará a un ejemplo de ficha técnica de un dispositivo médico, , ver la figura 8.
+    p.mt-5(data-aos="fade-up") En el material complementario se encuentra un enlace que lo llevará a un ejemplo de ficha técnica de un dispositivo médico, ver la figura 8.
 
     Separador.mt-5
 
@@ -114,7 +114,7 @@
             span.h2.text-white.ps-4.pt-3.pb-3.pe-4(style="background-color:#00BCD4;border-radius:100%;") 1
           .col.ps-0(style="place-self:center;")
             .p-3(style="background-color:#F2EEFC;")
-              p.mb-0(data-aos="fade-up") Debe existir un procedimiento dónde se haga referencia a este formato.
+              p.mb-0(data-aos="fade-up") Debe existir un procedimiento donde se haga referencia a este formato.
         .row.mb-4
           .col-auto.pe-0(style="place-self:center;" data-aos="fade-right")
             span.h2.text-white.ps-4.pt-3.pb-3.pe-4(style="background-color:#00BCD4;border-radius:100%;") 2
@@ -171,7 +171,7 @@
           figure
             img(src='@/assets/curso/temas/tema2/9.svg')
           .p-4.mt-5.cont_flecha(style="background-color:#FFEBCC;")
-            p.mb-0 El encabezado, el nombre que se le de va a dar y la codificación, para dar cumplimiento con los requisitos del sistema de calidad.
+            p.mb-0 El encabezado, el nombre que se le deba dar y la codificación, para dar cumplimiento con los requisitos del sistema de calidad.
       .row.col-8.m-auto
         div
           figure
@@ -246,7 +246,7 @@
           figure
             img(src='@/assets/curso/temas/tema2/20.svg')
         .col-lg-7(style="place-self:center;")
-          p Recibir la retroaimentación por parte de los colaboradores.
+          p Recibir la retroalimentación por parte de los colaboradores.
       .row(titulo="")
         .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
           figure

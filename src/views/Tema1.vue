@@ -13,10 +13,10 @@
           img(src="@/assets/curso/temas/tema1/2.png" data-aos="fade-right")
       .col-lg-8(style="place-self:center;")
         p(data-aos="fade-up") Es un término utilizado por muchas compañías, incluyendo los servicios y establecimientos farmacéuticos para realizar la evaluación y aprobación de sus proveedores actuales y potenciales (en nuestro caso los depósitos de medicamentos), a través de un conjunto de evaluaciones. 
-        p.mt-4(data-aos="fade-up") De las formas más tradicionales y recomendadas para realizar dicha evaluación, es la de generar una herramienta que puede ser un formulario o un formato.
+        p.mt-4(data-aos="fade-up") Dentro de las formas más tradicionales y recomendadas para realizar dicha evaluación, se encuentra la de generar una herramienta que puede ser un formulario o un formato.
         p.mt-4(data-aos="fade-up") Este proceso se estructura a través de una serie de preguntas que se basan en parámetros como: competencia, capacidad, consistencia, calidad, etc., con el objetivo de realizar una evaluación a los depósitos de productos farmacéuticos y, de esta manera, asegurar que se cuenta con los más calificados.
         .cajon.color-secundario.p-4.mt-4
-          p.mb-0(data-aos="fade-up") Para llevar a cabo una monitorización y medir la gestión del depósito y para que estos disminuyan sus costos, realicen un análisis de los riesgos, y obtengan un margen constante para mejorar en la selección de estos aliados, es fundamental contar con el formato para la evaluación.
+          p.mb-0(data-aos="fade-up") Para llevar a cabo una monitorización y medir la gestión del depósito y para disminuir costos, realizar un análisis de los riesgos, y obtener un margen constante para mejorar en la selección de estos aliados, es fundamental contar con el formato para la evaluación.
     
     p.mt-5(data-aos="fade-up") La siguiente figura 1 presenta, en el proceso del servicio o establecimiento farmacéutico, dónde se encuentra la actividad de evaluación de los proveedores, la cual se realiza luego de recibir los productos farmacéuticos, evaluarlos desde el punto de vista técnico y administrativo, y definir su grado de cumplimiento con las características establecidas previamente. 
 
@@ -30,7 +30,7 @@
     
     .col-lg-8.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-        h5 Figura 1.
+        h5.d-block Figura 1.
         span #[em Ubicación de la evaluación de proveedores en los procesos del servicio o establecimiento farmacéutico]
       figure.mt-4
         img(src="@/assets/curso/temas/tema1/4.svg" data-aos="zoom-in-up")
@@ -45,18 +45,18 @@
 
     .col-lg-6.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5 Figura 2.
+          h5.d-block Figura 2.
           span #[em Tipos de proveedores]
       figure.mt-4
         img(src="@/assets/curso/temas/tema1/5.svg" data-aos="zoom-in-up")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
     
     h3.mt-5(data-aos="fade-up") Según lo que provean
-    p.mt-4(data-aos="fade-up") Los proveedores, según lo que provean, se clasifican en, ver la figura 3:
+    p.mt-4(data-aos="fade-up") Los proveedores, según lo que provean, se clasifican así (ver la figura 3):
 
     .col-lg-6.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5 Figura 3.
+          h5.d-block Figura 3.
           span #[em Proveedores según lo que provean]
       figure.mt-4
         img(src="@/assets/curso/temas/tema1/6.svg" data-aos="zoom-in-up")
@@ -101,11 +101,11 @@
           img(src="@/assets/curso/temas/tema1/8.svg" data-aos="fade-left")
       .col-lg-1
     
-    p.mt-5(data-aos="fade-up") Por lo tanto, según su impacto, los proveedores se clasifican en, ver la figura 4:
+    p.mt-5(data-aos="fade-up") Los proveedores, según lo que provean, se clasifican así (ver la figura 4):
 
     .col-lg-6.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5 Figura 4.
+          h5.d-block Figura 4.
           span #[em Proveedores según su impacto]
       figure.mt-4
         img(src="@/assets/curso/temas/tema1/9.svg" data-aos="zoom-in-up")
@@ -133,7 +133,7 @@
                 | La relación y la comunicación se manejan de forma diaria y continua.
               li(data-aos="fade-up")
                 i.fas.fa-atom(style="color:#FF9D00;")
-                | Son básicos para el mantenimiento del establecimiento o de; servicio farmacéutico.
+                | Son básicos para el mantenimiento del establecimiento o del servicio farmacéutico.
           .tarjeta.color-secundario--borde.p-4(titulo="Estratégicos")
             h4 Estratégicos
             ul.lista-ul
@@ -165,11 +165,11 @@
                 i.fas.fa-atom(style="color:#FF9D00;")
                 | Los productos son de baja rotación y tienen poco impacto a nivel promocional.
     
-    p.mt-5(data-aos="fade-up") Teniendo en cuenta lo estudiado anteriormente, la siguiente figura 5 presenta la relación del tipo de proveedor, con su importancia y facilidad de adquisición.
+    p.mt-5(data-aos="fade-up") Teniendo en cuenta lo estudiado anteriormente, la figura 5 presenta la relación del tipo de proveedor, con su importancia y facilidad de adquisición.
 
     .col-lg-6.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5 Figura 5.
+          h5.d-block Figura 5.
           span #[em Cuadro tipos de proveedores según su impacto]
       figure.mt-4
         img(src="@/assets/curso/temas/tema1/11.svg" data-aos="zoom-in-up")
@@ -196,7 +196,7 @@
             
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5 Figura 6.
+          h5.d-block Figura 6.
           span #[em Beneficios de la evaluación de proveedores]
       figure.mt-4
         img(src="@/assets/curso/temas/tema1/13.svg" data-aos="zoom-in-up")
@@ -263,7 +263,7 @@
         p.mb-0(data-aos="fade-up") En este método, se definen los puntajes que debería tener un proveedor ideal a través de unos indicadores de gestión y, a partir de esa comparación, se toman las decisiones pertinentes. A continuación en la tabla 1, se podrá observar un ejemplo en la tabla presentada:
     
     .titulo-sexto.color-acento-botones.mt-5(data-aos="fade-up")
-      h5 Tabla 1.
+      h5.d-block Tabla 1.
       span #[em Comparativo entre el proveedor “ideal” y los puntajes obtenidos]
     
     .tabla-a.color-acento-contenido.mt-4 
@@ -295,7 +295,7 @@
             img(src="@/assets/curso/temas/tema1/22.svg" data-aos="fade-right")
         .col-lg-8(style="place-self:center;")
           .p-4(style="background-color:#F6F6F6;")
-            p(data-aos="fade-up") #[strong Ejemplo:] un establecimiento define los siguientes criterios como los más importantes:
+            p(data-aos="fade-up") #[strong Ejemplo:] #[br] Un establecimiento define los siguientes criterios como los más importantes:
             ul.lista-ul.mb-0
               li(data-aos="fade-up")
                 i.fas.fa-atom(style="color:#FF9D00;")

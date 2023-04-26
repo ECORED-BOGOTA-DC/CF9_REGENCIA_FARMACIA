@@ -47,7 +47,7 @@
           p(numero="4" titulo="Indicadores de eficacia") Se mide el grado de cumplimiento con las metas establecidas.
           p(numero="5" titulo="Indicadores de efectividad") Evalúan la capacidad de la compañía para transformar las debilidades en fortalezas y manejar los reclamos de los clientes, para brindarles soluciones que los satisfagan.
           p(numero="6" titulo="Indicadores de planeación") Mide el grado de cumplimiento en comparación con lo planificado, comparando la compañía con la competencia.
-          p(numero="7" titulo="Indicadores de calidad") Evalúan si el servicio y/o productos ofrecidos a los clientes, cumplen con sus expectativas de calidad.
+          p(numero="7" titulo="Indicadores de calidad") Evalúan si el servicio o productos ofrecidos a los clientes, cumplen con sus expectativas de calidad.
       .col-lg-6(style="place-self:center;")
         figure
           img(src="@/assets/curso/temas/tema3/4.svg" data-aos="fade-left")
@@ -78,7 +78,7 @@
                 img(src="@/assets/curso/temas/tema3/6.svg" style="max-width:100px;display:inline;")
               h4 Medir
             .tarjeta-flip__contenido.p-4.pt-5.pb-5.d-flex.align-items-center.justify-content-center(style="background-color:#E4DDFA;border-top:4px #7E5EE3 solid;border-radius:0px;")
-              p.text-center Compararse con algún estándar para determinar que tan cerca se está de este y realizar mediciones en el tiempo, con el fin de analizar el comportamiento de una situación.
+              p.text-center Compararse con algún estándar para determinar qué tan cerca se está de este y realizar mediciones en el tiempo, con el fin de analizar el comportamiento de una situación.
       .col-lg.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
@@ -108,7 +108,7 @@
             p La expresión del indicador será la siguiente: #[br] % de cumplimiento con los tiempos de entrega =
             figure.col-10.m-auto
               img(src="@/assets/curso/temas/tema3/9.svg")
-          p(numero="4" titulo="Paso 4 – Verificar que el indicador sea el adecuado") Se entiende lo que se quiere medir y la expresión del indicador, porque mide el objetivo propuesto y porque se tiene la información disponible para poder extraer los datos necesarios (facturas, actas de recepción, etc).
+          p(numero="4" titulo="Paso 4 – Verificar que el indicador sea el adecuado") Se entiende lo que se quiere medir y la expresión del indicador, porque mide el objetivo propuesto y porque se tiene la información disponible para poder extraer los datos necesarios (facturas, actas de recepción, etc.).
           div(numero="5" titulo="Paso 5 – Armar la ficha técnica")
             p La información que debe tener la ficha técnica del indicador es la siguiente:
             ul.lista-ul.mb-0
@@ -150,7 +150,7 @@
 
     .col-lg-8.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5 Figura 8.
+          h5.d-block Figura 8.
           span #[em Modelo ficha técnica de indicadores]
       figure.mt-4.ps-4.pe-4.pt-3.pb-3(style="background-color:#E8E8E8;")
         img(src="@/assets/curso/temas/tema3/10.svg" data-aos="zoom-in-up")
