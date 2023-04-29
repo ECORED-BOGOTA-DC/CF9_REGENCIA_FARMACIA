@@ -153,28 +153,28 @@ export default {
     {
       tema: 'Concepto evaluación de proveedores',
       referencia:
-        '<em>ICONTEC. (2015). Sistemas de Gestión de la Calidad. Requisitos (ISO 9001).<em>',
+        'ICONTEC. (2015). <em>Sistemas de Gestión de la Calidad</em>. Requisitos (ISO 9001).',
       tipo: 'Norma Técnica Colombiana',
       descarga: '/downloads/Anexo_CF9_NTC-ISO-9001-2015.pdf',
     },
     {
       tema: 'Concepto evaluación de proveedores',
       referencia:
-        '<em>Moreno Moreno, E (2019). Generalidades del proceso de adquisición de medicamentos y dispositivos médicos.<em>',
+        'Moreno Moreno, E (2019). <em>Generalidades del proceso de adquisición de medicamentos y dispositivos médicos.</em>',
       tipo: 'PDF',
       descarga: '/downloads/Anexo_CF9_Proceso_Adquisicion.pdf',
     },
     {
       tema: 'Método de calificación de proveedores',
       referencia:
-        '<em>Farmacia Homeopática Santa Rita. (s.f.). Procedimiento, evaluación, reevaluación, seguimiento y compras de proveedores.<em>',
+        'Farmacia Homeopática Santa Rita. (s.f.). <em>Procedimiento, evaluación, reevaluación, seguimiento y compras de proveedores.</em>',
       tipo: 'PDF',
       descarga: '/downloads/Anexo_CF9_Procedimiento_Seleccion.pdf',
     },
     {
       tema: 'Características de la ficha técnica',
       referencia:
-        '<em>Ministerio de Sanidad, Política Social e Igualdad. (s.f). Ficha técnica.<em>',
+        '<em>Ministerio de Sanidad, Política Social e Igualdad.</em> (s.f). Ficha técnica.',
       tipo: 'PDF',
       link:
         'https://botplusweb.portalfarma.com/documentos/2017/3/16/113878.pdf',
@@ -182,7 +182,7 @@ export default {
     {
       tema: 'Características de la ficha técnica',
       referencia:
-        '<em>Well Medicine s.a.s. (2014). Ficha técnica de producto terminado.<em>',
+        'Well Medicine s.a.s. (2014). <em>Ficha técnica de producto terminado.</em>',
       tipo: 'PDF',
       link:
         'https://www.catalogodelasalud.com/documenta/contenido/118887/12-FC-02-GUANTE-ESTERIL-Guantes-quirurgicos-16000504.pdf',
@@ -190,7 +190,7 @@ export default {
     {
       tema: 'Indicadores de evaluación de proveedores',
       referencia:
-        '<em>Departamento Nacional de Planeación. (2018). Guía para elaborar indicadores.<em>',
+        'Departamento Nacional de Planeación. (2018). <em>Guía para elaborar indicadores.</em>',
       tipo: 'PDF',
       descarga: '/downloads/Anexo_CF9Guia_para_elaborar_Indicadores.pdf',
     },

@@ -150,7 +150,7 @@
 
     .col-lg-8.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5.d-block Figura 8.
+          h5.d-block Figura 8
           span #[em Modelo ficha técnica de indicadores]
       figure.mt-4.ps-4.pe-4.pt-3.pb-3(style="background-color:#E8E8E8;")
         img(src="@/assets/curso/temas/tema3/10.svg" data-aos="zoom-in-up")

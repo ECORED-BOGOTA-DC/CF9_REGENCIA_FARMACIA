@@ -32,7 +32,7 @@
     
     .col-lg-8.mt-5.m-auto
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5.d-block Figura 7.
+          h5.d-block Figura 7
           span #[em Estructura de la ficha técnica de un medicamento]
       figure.mt-4
         img(src="@/assets/curso/temas/tema2/3.svg" data-aos="zoom-in-up")
@@ -43,7 +43,7 @@
 
     .col-lg-8.mt-5.m-auto
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5.d-block Figura 8.
+          h5.d-block Figura 8
           span #[em Estructura de la ficha técnica de un Dispositivo Médico]
       figure.mt-4
         img(src="@/assets/curso/temas/tema2/4.svg" data-aos="zoom-in-up")

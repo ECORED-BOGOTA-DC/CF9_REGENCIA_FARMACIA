@@ -30,7 +30,7 @@
     
     .col-lg-8.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-        h5.d-block Figura 1.
+        h5.d-block Figura 1
         span #[em Ubicación de la evaluación de proveedores en los procesos del servicio o establecimiento farmacéutico]
       figure.mt-4
         img(src="@/assets/curso/temas/tema1/4.svg" data-aos="zoom-in-up")
@@ -45,7 +45,7 @@
 
     .col-lg-6.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5.d-block Figura 2.
+          h5.d-block Figura 2
           span #[em Tipos de proveedores]
       figure.mt-4
         img(src="@/assets/curso/temas/tema1/5.svg" data-aos="zoom-in-up")
@@ -56,7 +56,7 @@
 
     .col-lg-6.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5.d-block Figura 3.
+          h5.d-block Figura 3
           span #[em Proveedores según lo que provean]
       figure.mt-4
         img(src="@/assets/curso/temas/tema1/6.svg" data-aos="zoom-in-up")
@@ -105,7 +105,7 @@
 
     .col-lg-6.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5.d-block Figura 4.
+          h5.d-block Figura 4
           span #[em Proveedores según su impacto]
       figure.mt-4
         img(src="@/assets/curso/temas/tema1/9.svg" data-aos="zoom-in-up")
@@ -169,7 +169,7 @@
 
     .col-lg-6.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5.d-block Figura 5.
+          h5.d-block Figura 5
           span #[em Cuadro tipos de proveedores según su impacto]
       figure.mt-4
         img(src="@/assets/curso/temas/tema1/11.svg" data-aos="zoom-in-up")
@@ -196,7 +196,7 @@
             
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5.d-block Figura 6.
+          h5.d-block Figura 6
           span #[em Beneficios de la evaluación de proveedores]
       figure.mt-4
         img(src="@/assets/curso/temas/tema1/13.svg" data-aos="zoom-in-up")
@@ -263,7 +263,7 @@
         p.mb-0(data-aos="fade-up") En este método, se definen los puntajes que debería tener un proveedor ideal a través de unos indicadores de gestión y, a partir de esa comparación, se toman las decisiones pertinentes. A continuación en la tabla 1, se podrá observar un ejemplo en la tabla presentada:
     
     .titulo-sexto.color-acento-botones.mt-5(data-aos="fade-up")
-      h5.d-block Tabla 1.
+      h5.d-block Tabla 1
       span #[em Comparativo entre el proveedor “ideal” y los puntajes obtenidos]
     
     .tabla-a.color-acento-contenido.mt-4 
