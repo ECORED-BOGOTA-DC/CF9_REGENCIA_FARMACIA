@@ -153,7 +153,7 @@ export default {
     {
       tema: 'Concepto evaluación de proveedores',
       referencia:
-        'ICONTEC. (2015). <em>Sistemas de Gestión de la Calidad</em>. Requisitos (ISO 9001).',
+        'ICONTEC. (2015). <em>Sistemas de Gestión de la Calidad. Requisitos</em> (ISO 9001).',
       tipo: 'Norma Técnica Colombiana',
       descarga: '/downloads/Anexo_CF9_NTC-ISO-9001-2015.pdf',
     },
