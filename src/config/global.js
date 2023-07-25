@@ -110,12 +110,12 @@ export default {
       },
     ],
     subMenu: [
-      /*{
+      {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
-      },*/
+      },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
