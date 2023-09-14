@@ -46,4 +46,11 @@ export default {
   color: #12263F !important
 .banner-interno__titulo__icono
   background-color: #12263F !important
+@media screen and (max-width: 992px)
+  .cont_responsive1
+    width: 100% !important
+    left: 0 !important
+  .cont_responsive2
+    width: 100% !important
+    right: 0 !important
 </style>

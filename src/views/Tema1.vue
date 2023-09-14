@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Concepto evaluación de proveedores
@@ -10,7 +10,7 @@
     .row.cont_1_1.pt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema1/2.png" data-aos="fade-right")
+          img(src="@/assets/curso/temas/tema1/2.png" data-aos="fade-right" style="max-width:370px;margin:0 auto;")
       .col-lg-8(style="place-self:center;")
         p(data-aos="fade-up") Es un término utilizado por muchas compañías, incluyendo los servicios y establecimientos farmacéuticos para realizar la evaluación y aprobación de sus proveedores actuales y potenciales (en nuestro caso los depósitos de medicamentos), a través de un conjunto de evaluaciones. 
         p.mt-4(data-aos="fade-up") Dentro de las formas más tradicionales y recomendadas para realizar dicha evaluación, se encuentra la de generar una herramienta que puede ser un formulario o un formato.
@@ -23,7 +23,7 @@
     .col-lg-8.mt-5.m-auto.row
       .col-md-6.mb-4.mb-md-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema1/3.png" data-aos="fade-right" style="position:relative;z-index:2;")
+          img(src="@/assets/curso/temas/tema1/3.png" data-aos="fade-right" style="position:relative;z-index:2;max-width:370px;margin:0 auto;")
       .col-md-6(style="place-self:center;")
         .cont_1_2.p-4.ps-0
           p.mb-0(data-aos="fade-up") #[strong Recuerde:] estos productos y proveedores se definieron en los procesos de selección y adquisición.
@@ -36,7 +36,7 @@
         img(src="@/assets/curso/temas/tema1/4.svg" data-aos="zoom-in-up")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_1_1 1.1. Tipo de proveedores
@@ -67,7 +67,7 @@
     .row.mt-5
       .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema1/7.svg" data-aos="fade-right")
+          img(src="@/assets/curso/temas/tema1/7.svg" data-aos="fade-right" style="max-width:370px;margin:0 auto;")
       .col-lg-9(style="place-self:center;")
         TabsA.color-acento-contenido.mb-5
           .tarjeta.color-secundario--borde.p-4(titulo="Bienes")
@@ -98,7 +98,7 @@
             | Aportan poco valor.
       .col-lg-5(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema1/8.svg" data-aos="fade-left")
+          img(src="@/assets/curso/temas/tema1/8.svg" data-aos="fade-left" style="max-width:400px;margin:0 auto;")
       .col-lg-1
     
     p.mt-5(data-aos="fade-up") Los proveedores, según lo que provean, se clasifican así (ver la figura 4):
@@ -116,7 +116,7 @@
     .row.mt-5
       .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema1/10.svg" data-aos="fade-right")
+          img(src="@/assets/curso/temas/tema1/10.svg" data-aos="fade-right" style="max-width:370px;margin:0 auto;")
       .col-lg-9(style="place-self:center;")
         TabsA.color-acento-contenido.mb-5
           .tarjeta.color-secundario--borde.p-4(titulo="Básicos")
@@ -187,7 +187,7 @@
             .bloque-texto-a__texto.p-4
               p(data-aos="fade-up") #[strong Tenga en cuenta:] para cada uno de estos proveedores (depósitos de productos farmacéuticos) es necesaria la implementación de controles y evaluaciones continuas de cada uno de ellos. 
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_1_2 1.2. Beneficios de hacer una evaluación del proveedor
@@ -202,7 +202,7 @@
         img(src="@/assets/curso/temas/tema1/13.svg" data-aos="zoom-in-up")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_1_3 1.3 Métodos de calificación de proveedores
@@ -213,7 +213,7 @@
           figure
             img(src="@/assets/curso/temas/tema1/15.png" data-aos="zoom-in-up")
         .col-lg-3
-          .bg-white.p-5(style="border-radius:30px 30px 30px 0px;width: 150%;left: -50%;box-shadow: 0px 0px 10px rgba(0,0,0,.2);")
+          .bg-white.p-5.cont_responsive1(style="border-radius:30px 30px 30px 0px;width: 150%;left: -50%;box-shadow: 0px 0px 10px rgba(0,0,0,.2);")
             p.mb-0(data-aos="fade-up") Para la evaluación de proveedores se utilizan varios métodos, los cuales se estudiarán a continuación.
     
     h3.mt-5(data-aos="fade-up") Método de puntuaciones
@@ -258,7 +258,7 @@
     .row.mt-5
       .col-md-3.mb-4.mb-md-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema1/20.svg" data-aos="fade-right")
+          img(src="@/assets/curso/temas/tema1/20.svg" data-aos="fade-right" style="max-width:370px;margin:0 auto;")
       .col-md-9(style="place-self:center;")
         p.mb-0(data-aos="fade-up") En este método, se definen los puntajes que debería tener un proveedor ideal a través de unos indicadores de gestión y, a partir de esa comparación, se toman las decisiones pertinentes. A continuación en la tabla 1, se podrá observar un ejemplo en la tabla presentada:
     
@@ -292,7 +292,7 @@
       .row.mt-5
         .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src="@/assets/curso/temas/tema1/22.svg" data-aos="fade-right")
+            img(src="@/assets/curso/temas/tema1/22.svg" data-aos="fade-right" style="max-width:370px;margin:0 auto;")
         .col-lg-8(style="place-self:center;")
           .p-4(style="background-color:#F6F6F6;")
             p(data-aos="fade-up") #[strong Ejemplo:] #[br] Un establecimiento define los siguientes criterios como los más importantes:

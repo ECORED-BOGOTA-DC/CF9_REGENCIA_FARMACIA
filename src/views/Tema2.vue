@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Ficha técnica de los productos farmacéuticos
@@ -12,11 +12,11 @@
         figure
           img(src="@/assets/curso/temas/tema2/1.png" data-aos="zoom-in-up")
       .col-lg-4(style="place-self:center;")
-        .p-4(style="background-color:#CDEDFC;border-radius:30px 30px 0px 30px;left: -50%;width:150%;box-shadow: 0px 0px 10px rgba(0,0,0,.2);position:relative;")
+        .p-4.cont_responsive1(style="background-color:#CDEDFC;border-radius:30px 30px 0px 30px;left: -50%;width:150%;box-shadow: 0px 0px 10px rgba(0,0,0,.2);position:relative;")
           p(data-aos="fade-up") Uno de los documentos más importantes que debe entregar un proveedor de productos farmacéuticos en el momento del despacho de esos insumos, es la ficha técnica, porque a través de ella se brinda información técnica importante para el manejo de los productos.
           p.mt-4.mb-0(data-aos="fade-up") Esta ficha, que también recibe el nombre de “Resumen de las Características del Producto” en el ámbito farmacéutico, es un documento oficial, aprobado por las autoridades sanitarias competentes, que contiene la información más relevante que se genera durante la investigación y evaluación de un producto farmacéutico. 
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo.mb-2
       h2#t_2_1 2.1 Características de la ficha técnica
@@ -24,7 +24,7 @@
     .row.cont_2_1.pt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema2/2.svg" data-aos="fade-right")
+          img(src="@/assets/curso/temas/tema2/2.svg" data-aos="fade-right" style="max-width:370px;margin:0 auto;")
       .col-lg-8(style="place-self:center;")
         p(data-aos="fade-up") La ficha técnica de un producto farmacéutico presenta una información técnica muy relevante que sirve como guía, de los profesionales de la salud, para el manejo de los productos.
         p.mt-4(data-aos="fade-up") La información contenida varía según el producto farmacéutico, ya sea un medicamento (homeopático, fitoterapéutico, nutracéutico), dispositivo médico, cosmético, biológico, etc.
@@ -51,7 +51,7 @@
     
     p.mt-5(data-aos="fade-up") En el material complementario se encuentra un enlace que lo llevará a un ejemplo de ficha técnica de un dispositivo médico, ver la figura 8.
 
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_2_2 2.2 Aplicaciones de la ficha técnica
@@ -59,7 +59,7 @@
     .col-lg-8.mt-5.m-auto.row
       .col-md-6.mb-4.mb-md-0.pe-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema2/5.png" data-aos="fade-right" style="position:relative;z-index:2;")
+          img(src="@/assets/curso/temas/tema2/5.png" data-aos="fade-right" style="position:relative;z-index:2;max-width:370px;margin:0 auto;")
       .col-md-6.ps-0(style="place-self:center;")
         .cont_2_2.p-4.ps-0
           p.mb-0(data-aos="fade-up") #[strong Recordar que:] la ficha técnica es un documento de gran utilidad para todos los profesionales que hacen parte del sector farmacéutico y, en general, del sector salud, y es una herramienta para la autoridad sanitaria debido a que abarca información legal y técnica de los productos farmacéuticos.
@@ -70,7 +70,7 @@
       .row.mt-5
         .col-lg-3.mb-4.mb-lg-0(style="place-self:end;")
           figure.image_1
-            img(src="@/assets/curso/temas/tema2/6.svg" data-aos="fade-right")
+            img(src="@/assets/curso/temas/tema2/6.svg" data-aos="fade-right" style="max-width:370px;margin:0 auto;")
         .row.col-lg-9
           .col-lg-4.mb-4
             .tarjeta-numerada.color-acento-contenido.p-5.h-100
@@ -99,7 +99,7 @@
                 .h2 5
               p(data-aos="fade-up") Apoyo, en caso de litigios legales por mala praxis de los profesionales sanitarios.
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_2_3 2.3 Técnicas de elaboración y diligenciamiento de formatos
@@ -129,7 +129,7 @@
               p.mb-0(data-aos="fade-up") Asignarle una codificación, nombre, fecha de elaboración y versión.
       .col-lg.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema2/7.svg" data-aos="zoom-in-up")
+          img(src="@/assets/curso/temas/tema2/7.svg" data-aos="zoom-in-up" style="max-width:370px;margin:0 auto;")
       .col-lg(style="place-self:center;")
         .row.mb-4
           .col-auto.pe-0(style="place-self:center;" data-aos="fade-right")
@@ -155,7 +155,7 @@
     .row.mt-5.col-lg-8.m-auto.p-4.pb-0(style="background-color:#E6F7FE;")
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema2/8.svg" data-aos="fade-right")
+          img(src="@/assets/curso/temas/tema2/8.svg" data-aos="fade-right" style="max-width:370px;margin:0 auto;")
       .col-lg-8(style="place-self:center;")
         a.anexo.mb-4(:href="obtenerLink('downloads/Anexo_CF9_Criterios_Eval_Prov.pdf')" target="_blank" data-aos="fade-left")
           .anexo__icono
@@ -212,7 +212,7 @@
     .row.mt-5.col-lg-8.m-auto.p-4.pb-0(style="background-color:#E6F7FE;")
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema2/16.svg" data-aos="fade-right")
+          img(src="@/assets/curso/temas/tema2/16.svg" data-aos="fade-right" style="max-width:370px;margin:0 auto;")
       .col-lg-8(style="place-self:center;")
         a.anexo.mb-4(:href="obtenerLink('downloads/Anexo_CF9_Formato_Eval_Prov.pdf')" target="_blank" data-aos="fade-left")
           .anexo__icono
@@ -222,47 +222,47 @@
 
     p.mt-5(data-aos="fade-up") Y el paso a paso para el diligenciamiento del formato es el siguiente:
 
-    PasosB.color-secundario.mt-5.p-4(style="background-color:#F6F6F6;border-radius:20px;")
+    LineaTiempoC.color-secundario.mt-5.p-4(style="background-color:#F6F6F6;border-radius:20px;")
       .row(titulo="")
         .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src='@/assets/curso/temas/tema2/17.svg')
+            img(src='@/assets/curso/temas/tema2/17.svg' style="max-width:370px;margin:0 auto;")
         .col-lg-7(style="place-self:center;")
           p Crear un instructivo con el paso a paso del diligenciamiento del formato.
       .row(titulo="")
         .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src='@/assets/curso/temas/tema2/18.svg')
+            img(src='@/assets/curso/temas/tema2/18.svg' style="max-width:370px;margin:0 auto;")
         .col-lg-7(style="place-self:center;")
           p Divulgarlo para resolver dudas.
       .row(titulo="")
         .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src='@/assets/curso/temas/tema2/19.svg')
+            img(src='@/assets/curso/temas/tema2/19.svg' style="max-width:370px;margin:0 auto;")
         .col-lg-7(style="place-self:center;")
           p Realizar ejercicios prácticos.
       .row(titulo="")
         .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src='@/assets/curso/temas/tema2/20.svg')
+            img(src='@/assets/curso/temas/tema2/20.svg' style="max-width:370px;margin:0 auto;")
         .col-lg-7(style="place-self:center;")
           p Recibir la retroalimentación por parte de los colaboradores.
       .row(titulo="")
         .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src='@/assets/curso/temas/tema2/21.svg')
+            img(src='@/assets/curso/temas/tema2/21.svg' style="max-width:370px;margin:0 auto;")
         .col-lg-7(style="place-self:center;")
           p Iniciar con el proceso de diligenciamiento.
       .row(titulo="")
         .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src='@/assets/curso/temas/tema2/22.svg')
+            img(src='@/assets/curso/temas/tema2/22.svg' style="max-width:370px;margin:0 auto;")
         .col-lg-7(style="place-self:center;")
           p No dejar tachones, ni enmendaduras.
       .row(titulo="")
         .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src='@/assets/curso/temas/tema2/23.svg')
+            img(src='@/assets/curso/temas/tema2/23.svg' style="max-width:370px;margin:0 auto;")
         .col-lg-7(style="place-self:center;")
           p Leer cuidadosmanente toda la información, para ubicar la información correcta donde corresponda.
 
@@ -277,7 +277,11 @@
 </template>
 
 <script>
+import LineaTiempoC from '../components/LineaTiempoC.vue'
 export default {
+  components: {
+    LineaTiempoC,
+  },
   name: 'Tema2',
   data: () => ({
     // variables de vue

@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Indicadores de evaluación de proveedores
@@ -12,26 +12,26 @@
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema3/1.svg" data-aos="fade-right")
+          img(src="@/assets/curso/temas/tema3/1.svg" data-aos="fade-right" style="max-width:370px;margin:0 auto;")
       .col-lg-8(style="place-self:center;")
         .cajon.color-primario.p-4
           p.mb-0(data-aos="fade-up") En la evaluación de proveedores, se deben plantear unos indicadores con el objetivo de verificar cuáles son los depósitos con los cuales se seguirá contando y con cuáles habrá que implementar acciones de mejora. 
         p.mt-4(data-aos="fade-up") Para una mejor comprensión del tema se debe identificar qué es un indicador, cuáles son los tipos de indicadores que existen, sus características y la medición y valoración de cada uno de estos indicadores.
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_3_1 3.1 Concepto de indicador
     
     .cont_3_1.row
       .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
-        .p-4.pt-5.pb-5(style="background-color:#CDEDFC;border-radius:30px 30px 0px 30px;right: -50%;width:150%;box-shadow: 0px 0px 10px rgba(0,0,0,.2);position:relative;z-index:2;")
+        .p-4.pt-5.pb-5.cont_responsive2(style="background-color:#CDEDFC;border-radius:30px 30px 0px 30px;right: -50%;width:150%;box-shadow: 0px 0px 10px rgba(0,0,0,.2);position:relative;z-index:2;")
           p(data-aos="fade-up") Un indicador se puede definir como una valoración cuantitativa que se puede observar y verificar, y que permite describir fenómenos o comportamientos de la realidad. Dicho objetivo se logra con la medición de una variable o la relación entre varias de ellas.
       .col-lg-9(style="place-self:center;")
         figure
           img(src="@/assets/curso/temas/tema3/3.png" data-aos="zoom-in-up")
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_3_2 3.2 Tipos de indicadores
@@ -50,9 +50,9 @@
           p(numero="7" titulo="Indicadores de calidad") Evalúan si el servicio o productos ofrecidos a los clientes, cumplen con sus expectativas de calidad.
       .col-lg-6(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema3/4.svg" data-aos="fade-left")
+          img(src="@/assets/curso/temas/tema3/4.svg" data-aos="fade-left" style="max-width:370px;margin:0 auto;")
 
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_3_3 3.3 Características de los indicadores
@@ -89,7 +89,7 @@
             .tarjeta-flip__contenido.p-4.pt-5.pb-5.d-flex.align-items-center.justify-content-center(style="background-color:#E4DDFA;border-top:4px #7E5EE3 solid;border-radius:0px;")
               p.text-center A través del resultado obtenido, un indicador debe dar información con respecto un tema específico y luego se deben tomar decisiones de acuerdo con lo obtenido.
     
-    Separador.mt-5 
+    Separador 
 
     .titulo-segundo
       h2#t_3_4 3.4 Medición y valoración de los indicadores
@@ -99,7 +99,7 @@
     .row.mt-5
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/temas/tema3/8.svg" data-aos="fade-left")
+          img(src="@/assets/curso/temas/tema3/8.svg" data-aos="fade-left" style="max-width:370px;margin:0 auto;")
       .col-lg-7(style="place-self:center;")
         LineaTiempoD.color-primario
           p(numero="1" titulo="Paso 1 – Definir el objetivo que se pretende medir") Para evaluar a los proveedores, se plantea el siguiente objetivo: #[br] Verificar el grado de cumplimiento de los proveedores con respecto a los tiempos de entrega de los productos farmacéuticos.
