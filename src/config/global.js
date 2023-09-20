@@ -287,13 +287,13 @@ export default {
       autores: [
         {
           nombre: 'Edwing Amir Moreno Moreno',
-          cargo: 'Experto Temático',
+          cargo: 'Experto temático',
           centro: 'Regional Antioquia – Centro de Servicios de Salud',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo:
-            'Diseñadora Instruccional – Revisora Metodológica y Pedagógica',
+            'Diseñadora instruccional – Revisora metodológica y pedagógica',
           centro:
             'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
         },
@@ -334,7 +334,7 @@ export default {
         },
         {
           nombre: 'Luis Jesús Pérez Madariaga',
-          cargo: 'Desarrollo Fullstack-2023',
+          cargo: 'Desarrollo fullstack-2023',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -369,7 +369,8 @@ export default {
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación al LMS',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
