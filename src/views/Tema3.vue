@@ -6,9 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 Indicadores de evaluación de proveedores
-
     p(data-aos="fade-up") Tener en cuenta que todo proceso o actividad debe ser medida, con el objetivo de poder obtener información con respecto a su cumplimiento. Es por eso que:
-
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
@@ -17,12 +15,9 @@
         .cajon.color-primario.p-4
           p.mb-0(data-aos="fade-up") En la evaluación de proveedores, se deben plantear unos indicadores con el objetivo de verificar cuáles son los depósitos con los cuales se seguirá contando y con cuáles habrá que implementar acciones de mejora. 
         p.mt-4(data-aos="fade-up") Para una mejor comprensión del tema se debe identificar qué es un indicador, cuáles son los tipos de indicadores que existen, sus características y la medición y valoración de cada uno de estos indicadores.
-    
     Separador
-
     .titulo-segundo
       h2#t_3_1 3.1 Concepto de indicador
-    
     .cont_3_1.row
       .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
         .p-4.pt-5.pb-5.cont_responsive2(style="background-color:#CDEDFC;border-radius:30px 30px 0px 30px;right: -50%;width:150%;box-shadow: 0px 0px 10px rgba(0,0,0,.2);position:relative;z-index:2;")
@@ -30,14 +25,10 @@
       .col-lg-9(style="place-self:center;")
         figure
           img(src="@/assets/curso/temas/tema3/3.png" data-aos="zoom-in-up")
-    
     Separador
-
     .titulo-segundo
       h2#t_3_2 3.2 Tipos de indicadores
-    
     p(data-aos="fade-up") Dentro de los indicadores se encuentra:
-
     .row.mt-5
       .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
         LineaTiempoD.color-primario
@@ -51,14 +42,10 @@
       .col-lg-6(style="place-self:center;")
         figure
           img(src="@/assets/curso/temas/tema3/4.svg" data-aos="fade-left" style="max-width:370px;margin:0 auto;")
-
     Separador
-
     .titulo-segundo
       h2#t_3_3 3.3 Características de los indicadores
-
     p(data-aos="fade-up") Las principales características de los indicadores son:
-
     .row.mt-5
       .col-lg.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
@@ -88,14 +75,10 @@
               h4 Comunicar
             .tarjeta-flip__contenido.p-4.pt-5.pb-5.d-flex.align-items-center.justify-content-center(style="background-color:#E4DDFA;border-top:4px #7E5EE3 solid;border-radius:0px;")
               p.text-center A través del resultado obtenido, un indicador debe dar información con respecto un tema específico y luego se deben tomar decisiones de acuerdo con lo obtenido.
-    
-    Separador 
-
+    Separador
     .titulo-segundo
       h2#t_3_4 3.4 Medición y valoración de los indicadores
-
     p(data-aos="fade-up") Teniendo claro qué es un indicador, cuáles son sus tipos y sus características. Ahora, se creará un indicador, y para ello se deben seguir los siguientes pasos, los cuales se estudiarán a la par con un ejemplo:
-
     .row.mt-5
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
         figure
@@ -145,19 +128,13 @@
               li.mb-0(data-aos="fade-up")
                 i.fas.fa-atom(style="color:#7E5EE3;")
                 | Requiere acción correctiva o de mejora.
-    
     p.mt-5(data-aos="fade-up") Observar el siguiente modelo en la figura 9 de ficha técnica de indicadores.
-
     .col-lg-8.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5.d-block Figura 9
-          span #[em Modelo ficha técnica de indicadores]
+        p.mb-0 #[b Figura 9]. Modelo ficha técnica de indicadores
       figure.mt-4.ps-4.pe-4.pt-3.pb-3(style="background-color:#E8E8E8;")
         img(src="@/assets/curso/temas/tema3/10.svg" data-aos="zoom-in-up")
-    
     p.mt-5(data-aos="fade-up") En ella se puede observar toda la información que se debe registrar en la ficha técnica del indicador, con el objetivo de realizar su medición y generar oportunidades de mejora a partir de los resultados. En este ejemplo se evidenció un seguimiento mensual al indicador, cuya frecuencia de medición era mensual.
-
-
 
 </template>
 

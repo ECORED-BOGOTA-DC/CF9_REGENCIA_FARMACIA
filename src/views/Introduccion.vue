@@ -7,7 +7,6 @@
         span
           i.fas.fa-info
       h1 Introducción
-
     figure(data-aos="fade-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/sBZgU1RlQX8" title="Evaluación de proveedores" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

@@ -6,7 +6,6 @@
       .titulo-principal__numero
         span 2
       h1 Ficha técnica de los productos farmacéuticos
-    
     .row
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
         figure
@@ -15,12 +14,9 @@
         .p-4.cont_responsive1(style="background-color:#CDEDFC;border-radius:30px 30px 0px 30px;left: -50%;width:150%;box-shadow: 0px 0px 10px rgba(0,0,0,.2);position:relative;")
           p(data-aos="fade-up") Uno de los documentos más importantes que debe entregar un proveedor de productos farmacéuticos en el momento del despacho de esos insumos, es la ficha técnica, porque a través de ella se brinda información técnica importante para el manejo de los productos.
           p.mt-4.mb-0(data-aos="fade-up") Esta ficha, que también recibe el nombre de “Resumen de las Características del Producto” en el ámbito farmacéutico, es un documento oficial, aprobado por las autoridades sanitarias competentes, que contiene la información más relevante que se genera durante la investigación y evaluación de un producto farmacéutico. 
-    
     Separador
-
     .titulo-segundo.mb-2
       h2#t_2_1 2.1 Características de la ficha técnica
-    
     .row.cont_2_1.pt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
@@ -29,30 +25,22 @@
         p(data-aos="fade-up") La ficha técnica de un producto farmacéutico presenta una información técnica muy relevante que sirve como guía, de los profesionales de la salud, para el manejo de los productos.
         p.mt-4(data-aos="fade-up") La información contenida varía según el producto farmacéutico, ya sea un medicamento (homeopático, fitoterapéutico, nutracéutico), dispositivo médico, cosmético, biológico, etc.
         p.mt-4(data-aos="fade-up") A continuación en la figura 7, se presenta un ejemplo de la estructura de una ficha técnica de un producto farmacéutico y de los dispositivos médicos.
-    
     .col-lg-8.mt-5.m-auto
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5.d-block Figura 7
-          span #[em Estructura de la ficha técnica de un medicamento]
+        p.mb-0 #[b Figura 7]. Estructura de la ficha técnica de un medicamento
       figure.mt-4
         img(src="@/assets/curso/temas/tema2/3.svg" data-aos="zoom-in-up")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
-    
     p.mt-5(data-aos="fade-up") La ficha técnica, de un medicamento, aplica para establecimientos farmacéuticos comerciales como las Farmacias-Droguerías, Droguerías y depósitos, así como también para los servicios farmacéuticos, porque la información abarca temas comerciales, de almacenamiento, conservación y clínicos.
     p.mt-4(data-aos="fade-up") En el material complementario se encuentra un enlace que lo llevará a un ejemplo de ficha técnica de un medicamento.
-
     .col-lg-8.mt-5.m-auto
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
-          h5.d-block Figura 8
-          span #[em Estructura de la ficha técnica de un Dispositivo Médico]
+        p.mb-0 #[b Figura 8]. Estructura de la ficha técnica de un Dispositivo Médico
       figure.mt-4
         img(src="@/assets/curso/temas/tema2/4.svg" data-aos="zoom-in-up")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
-    
     p.mt-5(data-aos="fade-up") En el material complementario se encuentra un enlace que lo llevará a un ejemplo de ficha técnica de un dispositivo médico, ver la figura 8.
-
     Separador
-
     .titulo-segundo
       h2#t_2_2 2.2 Aplicaciones de la ficha técnica
 
@@ -279,10 +267,10 @@
 <script>
 import LineaTiempoC from '../components/LineaTiempoC.vue'
 export default {
+  name: 'Tema2',
   components: {
     LineaTiempoC,
   },
-  name: 'Tema2',
   data: () => ({
     // variables de vue
   }),
