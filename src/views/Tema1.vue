@@ -28,7 +28,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
         p.mb-0 #[b Figura 1]. Ubicación de la evaluación de proveedores en los procesos del servicio o establecimiento farmacéutico
       figure.mt-4
-        img(src="@/assets/curso/temas/tema1/4.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/temas/tema1/4.svg" data-aos="zoom-in-up" alt="Muestra la ubicación de la evaluación de proveedores en los procesos del servicio o establecimiento farmacéutico, iniciando por la selección de productos farmacéuticos y de proveedores, pasando por a adquisición de los productos farmacéuticos y la recepción de los productos, finalmente también se hace la evaluación de proveedores.")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
     Separador
     .titulo-segundo
@@ -38,7 +38,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
         p.mb-0 #[b Figura 2]. Tipos de proveedores
       figure.mt-4
-        img(src="@/assets/curso/temas/tema1/5.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/temas/tema1/5.svg" data-aos="zoom-in-up" alt="Muestra los tipos de proveedores, divididos en según lo que provean y según el impacto.")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
     h3.mt-5(data-aos="fade-up") Según lo que provean
     p.mt-4(data-aos="fade-up") Los proveedores, según lo que provean, se clasifican así (ver la figura 3):
@@ -46,7 +46,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
         p.mb-0 #[b Figura 3]. Proveedores según lo que provean
       figure.mt-4
-        img(src="@/assets/curso/temas/tema1/6.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/temas/tema1/6.svg" data-aos="zoom-in-up" alt="Muestra proveedores, según lo que provean, en este caso pueden ser, bienes, servicios o recursos.")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
     p.mt-5(data-aos="fade-up") Y cada uno posee las siguientes características, teniendo en cuenta que, para los servicios y establecimientos farmacéuticos, aplicarían de manera más directa los de bienes, porque suministran productos farmacéuticos.
     .row.mt-5
@@ -88,7 +88,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
         p.mb-0 #[b Figura 4]. Proveedores según su impacto
       figure.mt-4
-        img(src="@/assets/curso/temas/tema1/9.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/temas/tema1/9.svg" data-aos="zoom-in-up" alt="Muestra los proveedores, según su impacto, puede ser básicos, estratégicos, críticos o poco trascendentes.")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
     p.mt-5(data-aos="fade-up") Y cada uno de estos proveedores cuenta con las siguientes características:
     .row.mt-5
@@ -147,7 +147,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
         p.mb-0 #[b Figura 5]. Cuadro tipos de proveedores según su impacto
       figure.mt-4
-        img(src="@/assets/curso/temas/tema1/11.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/temas/tema1/11.svg" data-aos="zoom-in-up" alt="Muestra el Cuadro tipos de proveedores según su impacto, en un plano cartesiano, importancia baja y alta, versus facilidad de adquisición, baja y alta, allí se ubican, los proveedores estratégicos, básicos, críticos y poco trascendentes. ")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
     p.mt-5(data-aos="fade-up") Se puede concluir que es importante contar con cada uno de estos proveedores, porque aportan y son necesarios en diferentes momentos y situaciones que se presentan en los servicios y establecimientos farmacéuticos. De acuerdo con su ubicación en el cuadro, se desarrolla la forma de cómo sostener las relaciones comerciales con el tiempo.
     .col-lg-10.mt-5.m-auto
@@ -162,12 +162,12 @@
     Separador
     .titulo-segundo
       h2#t_1_2 1.2. Beneficios de hacer una evaluación del proveedor
-    p(data-aos="fade-up") Para el establecimiento y servicio farmacéutico, la evaluación de los depósitos de los productos farmacéuticos cuenta con muchos beneficios. A continuación en la figura 6 podrá observar tres de los beneficios más significativos de la realización de esta actividad:
+    p(data-aos="fade-up") Para el establecimiento y servicio farmacéutico, la evaluación de los depósitos de los productos farmacéuticos cuenta con muchos beneficios. A continuación, en la figura 6 podrá observar tres de los beneficios más significativos de la realización de esta actividad:
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
         p.mb-0 #[b Figura 6]. Beneficios de la evaluación de proveedores
       figure.mt-4
-        img(src="@/assets/curso/temas/tema1/13.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/temas/tema1/13.svg" data-aos="zoom-in-up" alt="Muestra los beneficios de la evaluación de proveedores:<br>1) Control de riesgos: evaluar los riesgos asociados a cada proveedor; ejemplo, el compromiso con la calidad, la competencia y la capacidad.<br>2) Mejorar la imagen: evaluar los proveedores y trabajar con los más calificados, es un aporte a la mejora de la imagen del establecimiento.<br>3) Beneficios económicos: se logran contando con un depósito que sea un verdadero aliado y cumpla con todos los requisitos. ")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
     Separador
     .titulo-segundo
@@ -213,18 +213,18 @@
           .col-lg-6
             h4.text-start(data-aos="fade-left") Definición de la importancia de cada criterio
             p.mt-4.text-start(data-aos="fade-left") Cuando se establecen los criterios en el paso 1, se define la importancia de cada uno, según el orden en que se organizan.
-            p.mt-4.text-start(data-aos="fade-left") Por ejemplo, en la imagen se muestra que el criterio que más importancia tiene es el de Facilidades y flexibilidad en condiciones comerciales.
+            p.mt-4.text-start(data-aos="fade-left") Por ejemplo, en la imagen se muestra que el criterio que más importancia tiene es el de facilidades y flexibilidad en condiciones comerciales.
     h3.mt-5(data-aos="fade-up") Método de proveedor “ideal”
     .row.mt-5
       .col-md-3.mb-4.mb-md-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/temas/tema1/20.svg" data-aos="fade-right" style="max-width:370px;margin:0 auto;")
       .col-md-9(style="place-self:center;")
-        p.mb-0(data-aos="fade-up") En este método, se definen los puntajes que debería tener un proveedor ideal a través de unos indicadores de gestión y, a partir de esa comparación, se toman las decisiones pertinentes. A continuación en la tabla 1, se podrá observar un ejemplo en la tabla presentada:
+        p.mb-0(data-aos="fade-up") En este método, se definen los puntajes que debería tener un proveedor ideal a través de unos indicadores de gestión y, a partir de esa comparación, se toman las decisiones pertinentes. A continuación, en la tabla 1, se podrá observar un ejemplo en la tabla presentada:
     .titulo-sexto.color-acento-botones.mt-5(data-aos="fade-up")
       p.mb-0 #[b Tabla 1]. Comparativo entre el proveedor “ideal” y los puntajes obtenidos
     .tabla-a.color-acento-contenido.mt-4 
-      table
+      table(alt="Comparativo entre el proveedor “ideal” y los puntajes obtenidos, contienen el nombre del indicador, fórmula del indicador, puntaje del proveedor ideal y puntaje de los proveedores.")
         caption.mt-3.fw-normal Nota. SENA (2021).
         thead
           tr(style="background-color:#7FDDE9;")

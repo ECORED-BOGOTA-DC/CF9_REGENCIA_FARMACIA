@@ -132,7 +132,7 @@
     .col-lg-8.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
         p.mb-0 #[b Figura 9]. Modelo ficha técnica de indicadores
-      figure.mt-4.ps-4.pe-4.pt-3.pb-3(style="background-color:#E8E8E8;")
+      figure.mt-4.ps-4.pe-4.pt-3.pb-3(style="background-color:#E8E8E8;" alt="Muestra un Modelo ficha técnica de indicadores con todos los ítems requeridos y dispuestos para este.")
         img(src="@/assets/curso/temas/tema3/10.svg" data-aos="zoom-in-up")
     p.mt-5(data-aos="fade-up") En ella se puede observar toda la información que se debe registrar en la ficha técnica del indicador, con el objetivo de realizar su medición y generar oportunidades de mejora a partir de los resultados. En este ejemplo se evidenció un seguimiento mensual al indicador, cuya frecuencia de medición era mensual.
 

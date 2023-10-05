@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="El gráfico muestra la síntesis del componente formativo de la evaluación de proveedores, teniendo en cuenta los métodos que se utilizan, los proveedores que existen, los objetivos, los tipos de proveedores y la importancia de estos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

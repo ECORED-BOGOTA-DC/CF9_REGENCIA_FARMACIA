@@ -24,12 +24,12 @@
       .col-lg-8(style="place-self:center;")
         p(data-aos="fade-up") La ficha técnica de un producto farmacéutico presenta una información técnica muy relevante que sirve como guía, de los profesionales de la salud, para el manejo de los productos.
         p.mt-4(data-aos="fade-up") La información contenida varía según el producto farmacéutico, ya sea un medicamento (homeopático, fitoterapéutico, nutracéutico), dispositivo médico, cosmético, biológico, etc.
-        p.mt-4(data-aos="fade-up") A continuación en la figura 7, se presenta un ejemplo de la estructura de una ficha técnica de un producto farmacéutico y de los dispositivos médicos.
+        p.mt-4(data-aos="fade-up") A continuación, en la figura 7, se presenta un ejemplo de la estructura de una ficha técnica de un producto farmacéutico y de los dispositivos médicos.
     .col-lg-8.mt-5.m-auto
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
         p.mb-0 #[b Figura 7]. Estructura de la ficha técnica de un medicamento
       figure.mt-4
-        img(src="@/assets/curso/temas/tema2/3.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/temas/tema2/3.svg" data-aos="zoom-in-up" alt="Muestra, cómo debería ir una ficha técnica: Estructura de la ficha técnica de un medicamento<br>1 Nombre del medicamento.<br>2 Composición cualitativa y cuantitativa.<br>3 Forma farmacéutica.<br>4 Datos clínicos.<br>5 Propiedades farmacológicas.<br>6 Datos farmacéuticos.<br>7 Titular de la autorización de comercialización.<br>8 Número de autorización de comercialización.")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
     p.mt-5(data-aos="fade-up") La ficha técnica, de un medicamento, aplica para establecimientos farmacéuticos comerciales como las Farmacias-Droguerías, Droguerías y depósitos, así como también para los servicios farmacéuticos, porque la información abarca temas comerciales, de almacenamiento, conservación y clínicos.
     p.mt-4(data-aos="fade-up") En el material complementario se encuentra un enlace que lo llevará a un ejemplo de ficha técnica de un medicamento.
@@ -37,7 +37,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-up")
         p.mb-0 #[b Figura 8]. Estructura de la ficha técnica de un Dispositivo Médico
       figure.mt-4
-        img(src="@/assets/curso/temas/tema2/4.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/temas/tema2/4.svg" data-aos="zoom-in-up" alt="Muestra la estructura de la ficha técnica de un dispositivo médico:<br>1 Identificación del producto:<br>Nombre comercial del producto.<br>Marca.<br>Presentaciones comerciales.<br>Titular de Registro Sanitario.<br>Vigencia Registro Sanitario.<br>Clasificación según el INVIMA.<br>Código ATC.<br>Dirección del titular del registro.<br>Laboratorio fabricante.<br>Dirección.<br>Teléfono de emergencia.<br>2. Indicaciones.<br>3. Declaración de composición.<br>4. Contraindicaciones.<br>5. Advertencias.<br>7. Recomendaciones para manejo de desechos.")
         figcaption.mt-3.fw-normal Nota. SENA (2021).
     p.mt-5(data-aos="fade-up") En el material complementario se encuentra un enlace que lo llevará a un ejemplo de ficha técnica de un dispositivo médico, ver la figura 8.
     Separador
